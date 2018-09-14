@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "URFileTool.h"
 
 FOUNDATION_EXPORT double HYCommonToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char HYCommonToolVersionString[];

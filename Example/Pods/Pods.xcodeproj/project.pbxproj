@@ -13,23 +13,25 @@
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		2B3099DDECCAD68878EA5176B0366018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348CEBB2EC16D7572F3D3249DD90A7FC /* URFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE656903D9448FC7852B90FA8F0BCDA /* URFileTool.m */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4EED7BA8AECF959D88BB8A916ECEFB7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		6A810C7F3058A4A4CFA76565E3C81915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		6BD298F62FAC54A6550CD2D6EECEB5FC /* URFileTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEBF3256D9C8E60560504B0D7943652 /* URFileTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		75BF06753C281A37B0D7499A13F5C0A3 /* Pods-HYCommonTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DC923C586C37D0956B2A2CCB0B7637 /* Pods-HYCommonTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D26B7083FFD1F9C49B664874F2FD4CA /* HYCommonTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2766E7A73D8EDC81041F10D09A4746F3 /* HYCommonTool-dummy.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
 		86125D19567963FF8322D4C87364F9E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DA4AB9ECE3778AB9A9DED49361F460A /* HYCommonTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 662246E456FB9B324815E8A24A0F8EA1 /* HYCommonTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD946097572599FCD21037829B11B1B /* HYCommonTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9D9620CBB281EE8A3D4A0F8554CF4D /* HYCommonTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8289FEA35F398C6307E83A69D053330 /* HYCommonTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8690A80C86EE2488361B52DEC478C37 /* HYCommonTool-dummy.m */; };
 		BC1E82FC1318E750AA690A958381CFC5 /* Pods-HYCommonTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF851EB542240AD41E7B9F382FAC833 /* Pods-HYCommonTool_Example-dummy.m */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
@@ -51,7 +53,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA622DB841634CF5E5A334814E0F40A2;
+			remoteGlobalIDString = 80E20B16224946FA83A3C052586EBAC0;
 			remoteInfo = HYCommonTool;
 		};
 /* End PBXContainerItemProxy section */
@@ -59,62 +61,64 @@
 /* Begin PBXFileReference section */
 		01F8A98E0F84CEE9329525C86AA7D548 /* Pods-HYCommonTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYCommonTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		06FFBC390902C0E0D1F8A9D60747B537 /* HYCommonTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYCommonTool-prefix.pch"; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		0B69929E9A0FB84014C1A5CB032F81F9 /* Pods-HYCommonTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYCommonTool_Example.modulemap"; sourceTree = "<group>"; };
-		0DEF7B0AE68E8ABAEB91F67BBE9C430D /* Pods_HYCommonTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYCommonTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DEF7B0AE68E8ABAEB91F67BBE9C430D /* Pods_HYCommonTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYCommonTool_Example.framework; path = "Pods-HYCommonTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F83732E5CE8B2AE592848989FFD6463 /* Pods-HYCommonTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYCommonTool_Tests-resources.sh"; sourceTree = "<group>"; };
 		10A512B34B5602C6E70C128DCD7E9BF2 /* Pods-HYCommonTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYCommonTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		10CE164379980F957901CD2B4AC53835 /* HYCommonTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYCommonTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CE164379980F957901CD2B4AC53835 /* HYCommonTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYCommonTool.framework; path = HYCommonTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		230D3871C4585EFD16F2DE6E7272D8C6 /* Pods-HYCommonTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYCommonTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		24DC923C586C37D0956B2A2CCB0B7637 /* Pods-HYCommonTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYCommonTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		2766E7A73D8EDC81041F10D09A4746F3 /* HYCommonTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYCommonTool-dummy.m"; sourceTree = "<group>"; };
 		2810AFA9E97C429B035B490036AB9B92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE3109DF70F5E0470D6AE8B58CF90AB /* HYCommonTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYCommonTool-prefix.pch"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		38206859102CC81371DB02ADF53ECBB6 /* Pods-HYCommonTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYCommonTool_Tests.modulemap"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		4230BA5892FD86A30C3238265C44C952 /* HYCommonTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYCommonTool.xcconfig; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		58083304ED6207500154C248270DD5AB /* Pods-HYCommonTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYCommonTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		62D7D173C9E43665503DE863932E564E /* Pods-HYCommonTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYCommonTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		63CC4237B61D7AAA1DE1F558CE4796DA /* Pods-HYCommonTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYCommonTool_Example-frameworks.sh"; sourceTree = "<group>"; };
-		662246E456FB9B324815E8A24A0F8EA1 /* HYCommonTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYCommonTool-umbrella.h"; sourceTree = "<group>"; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAA34FB101C5168D42C2F21042B6F90 /* HYCommonTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYCommonTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B9D9620CBB281EE8A3D4A0F8554CF4D /* HYCommonTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYCommonTool-umbrella.h"; sourceTree = "<group>"; };
+		73D2D87B042E472A877B0E7327DCF1B3 /* HYCommonTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYCommonTool.xcconfig; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7BF0B85C2E800757948233377712C177 /* Pods_HYCommonTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYCommonTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEBF3256D9C8E60560504B0D7943652 /* URFileTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = URFileTool.h; path = HYCommonTool/Classes/URFileTool.h; sourceTree = "<group>"; };
+		7BF0B85C2E800757948233377712C177 /* Pods_HYCommonTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYCommonTool_Tests.framework; path = "Pods-HYCommonTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		852C4D28807CA8DFC38A72A49748CA07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8F51542A8C040783F74794532E8E84E4 /* Pods-HYCommonTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYCommonTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91E8D954AA42E32E4573C05438926CED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B479EC0461AB89E6EE737099EB7B0A3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B48F915782CAC9DD532A766F335CD5AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B76E9F7B58E95714B8EBB390F0933197 /* HYCommonTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYCommonTool.modulemap; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BFE187BD32CDF8B6CF028F4313EEB21C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C15D6A8962E0A76CA8151DF8AF116056 /* Pods-HYCommonTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYCommonTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C25A80723DE3983E05035503FE3B398A /* HYCommonTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYCommonTool.modulemap; sourceTree = "<group>"; };
 		C4813C34A649C63546BC39966B59935C /* Pods-HYCommonTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYCommonTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C9AADDC079BE924D7BD395308B965A0C /* HYCommonTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HYCommonTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CE6651C6EFA7E378C378FE86F7571143 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE656903D9448FC7852B90FA8F0BCDA /* URFileTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = URFileTool.m; path = HYCommonTool/Classes/URFileTool.m; sourceTree = "<group>"; };
+		CE6651C6EFA7E378C378FE86F7571143 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C588582174433EC4093D38F4593DEE /* Pods-HYCommonTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYCommonTool_Example-resources.sh"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DC1B0B2C0B5A3789ABC591EA65EED023 /* Pods-HYCommonTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYCommonTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCF851EB542240AD41E7B9F382FAC833 /* Pods-HYCommonTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYCommonTool_Example-dummy.m"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E8690A80C86EE2488361B52DEC478C37 /* HYCommonTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYCommonTool-dummy.m"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F7AFF50916343A2882617F6CA94EB465 /* Pods-HYCommonTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYCommonTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F9BC8BD6404C4F1168F9FA74F5FB2AE7 /* Pods-HYCommonTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYCommonTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FBDB0A8AEDA94840BB69E17C258BA375 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBF357B3EB217E432DB80C0E1549C89E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,11 +134,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72547354BEE6DB05F154F19EDC1FB720 /* Frameworks */ = {
+		2DD6DB62240800313D79C6BDBC8BCE38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A810C7F3058A4A4CFA76565E3C81915 /* Foundation.framework in Frameworks */,
+				4EED7BA8AECF959D88BB8A916ECEFB7D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,14 +169,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		20A0D67DB464ACD075FE333E6BD3215F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2E74AB8EF18BE8AC2407D8F9309C234B /* HYCommonTool */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,17 +176,8 @@
 				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		2E74AB8EF18BE8AC2407D8F9309C234B /* HYCommonTool */ = {
-			isa = PBXGroup;
-			children = (
-				57ECFD7C543CCB864DAD1C62DE234B53 /* Pod */,
-				4F1D88B69B9F405F7FD51C81F6147BFB /* Support Files */,
-			);
-			name = HYCommonTool;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		2FB01D0C36C3B10554D278828C18CF3E /* Pods-HYCommonTool_Example */ = {
@@ -225,20 +212,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		4F1D88B69B9F405F7FD51C81F6147BFB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C25A80723DE3983E05035503FE3B398A /* HYCommonTool.modulemap */,
-				4230BA5892FD86A30C3238265C44C952 /* HYCommonTool.xcconfig */,
-				2766E7A73D8EDC81041F10D09A4746F3 /* HYCommonTool-dummy.m */,
-				06FFBC390902C0E0D1F8A9D60747B537 /* HYCommonTool-prefix.pch */,
-				662246E456FB9B324815E8A24A0F8EA1 /* HYCommonTool-umbrella.h */,
-				FBDB0A8AEDA94840BB69E17C258BA375 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HYCommonTool";
-			sourceTree = "<group>";
-		};
 		51E169CA93BAEF122EFE5D9FFC844596 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,12 +223,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57ECFD7C543CCB864DAD1C62DE234B53 /* Pod */ = {
+		57C52546D81E3A40269439CC22E7ACBD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C9AADDC079BE924D7BD395308B965A0C /* HYCommonTool.podspec */,
-				B479EC0461AB89E6EE737099EB7B0A3C /* LICENSE */,
-				B48F915782CAC9DD532A766F335CD5AA /* README.md */,
+				5AFA0F8647EA048FDAAF165A910C07C4 /* HYCommonTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5AFA0F8647EA048FDAAF165A910C07C4 /* HYCommonTool */ = {
+			isa = PBXGroup;
+			children = (
+				7BEBF3256D9C8E60560504B0D7943652 /* URFileTool.h */,
+				CCE656903D9448FC7852B90FA8F0BCDA /* URFileTool.m */,
+				5C519467904734520435817E5D3E9282 /* Pod */,
+				D8297F95015A7285BE67085686D54A58 /* Support Files */,
+			);
+			name = HYCommonTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5C519467904734520435817E5D3E9282 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6AAA34FB101C5168D42C2F21042B6F90 /* HYCommonTool.podspec */,
+				852C4D28807CA8DFC38A72A49748CA07 /* LICENSE */,
+				BFE187BD32CDF8B6CF028F4313EEB21C /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -282,7 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				20A0D67DB464ACD075FE333E6BD3215F /* Development Pods */,
+				57C52546D81E3A40269439CC22E7ACBD /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				51E169CA93BAEF122EFE5D9FFC844596 /* Products */,
@@ -316,6 +309,20 @@
 				61C927435F58F103D772F121A063E765 /* Pods-HYCommonTool_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D8297F95015A7285BE67085686D54A58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B76E9F7B58E95714B8EBB390F0933197 /* HYCommonTool.modulemap */,
+				73D2D87B042E472A877B0E7327DCF1B3 /* HYCommonTool.xcconfig */,
+				E8690A80C86EE2488361B52DEC478C37 /* HYCommonTool-dummy.m */,
+				2CE3109DF70F5E0470D6AE8B58CF90AB /* HYCommonTool-prefix.pch */,
+				6B9D9620CBB281EE8A3D4A0F8554CF4D /* HYCommonTool-umbrella.h */,
+				91E8D954AA42E32E4573C05438926CED /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYCommonTool";
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -373,19 +380,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA391CCD6AF1A272424ACFE5B2F5036B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD946097572599FCD21037829B11B1B /* HYCommonTool-umbrella.h in Headers */,
+				6BD298F62FAC54A6550CD2D6EECEB5FC /* URFileTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED94CBBDBA0F0D246A731F1EB6CA2D52 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				75BF06753C281A37B0D7499A13F5C0A3 /* Pods-HYCommonTool_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4299A904C30ECF3459A4649C4D5D7EE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DA4AB9ECE3778AB9A9DED49361F460A /* HYCommonTool-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,13 +453,13 @@
 			productReference = 0DEF7B0AE68E8ABAEB91F67BBE9C430D /* Pods_HYCommonTool_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DA622DB841634CF5E5A334814E0F40A2 /* HYCommonTool */ = {
+		80E20B16224946FA83A3C052586EBAC0 /* HYCommonTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B709199A0C4CE33072D80EB36C113F9 /* Build configuration list for PBXNativeTarget "HYCommonTool" */;
+			buildConfigurationList = 83E22CA49FAB93B91176A0ECD7959A1B /* Build configuration list for PBXNativeTarget "HYCommonTool" */;
 			buildPhases = (
-				46213CFEFD528A6F5EE7276D684799AE /* Sources */,
-				72547354BEE6DB05F154F19EDC1FB720 /* Frameworks */,
-				F4299A904C30ECF3459A4649C4D5D7EE /* Headers */,
+				DBA544D0ED392FFB0755C173D51CD782 /* Sources */,
+				2DD6DB62240800313D79C6BDBC8BCE38 /* Frameworks */,
+				CA391CCD6AF1A272424ACFE5B2F5036B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -484,7 +492,7 @@
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				DA622DB841634CF5E5A334814E0F40A2 /* HYCommonTool */,
+				80E20B16224946FA83A3C052586EBAC0 /* HYCommonTool */,
 				39535FD42FEE6DE2DF8247771141BD9D /* Pods-HYCommonTool_Example */,
 				033C5B9727560DF4A188595D29CC8A35 /* Pods-HYCommonTool_Tests */,
 			);
@@ -492,19 +500,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46213CFEFD528A6F5EE7276D684799AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D26B7083FFD1F9C49B664874F2FD4CA /* HYCommonTool-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B9A7CA91C901EC988754E59303C408D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC1E82FC1318E750AA690A958381CFC5 /* Pods-HYCommonTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA544D0ED392FFB0755C173D51CD782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8289FEA35F398C6307E83A69D053330 /* HYCommonTool-dummy.m in Sources */,
+				348CEBB2EC16D7572F3D3249DD90A7FC /* URFileTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +553,7 @@
 		B8BF283A20ABD9B3F45B062529EC1CBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HYCommonTool;
-			target = DA622DB841634CF5E5A334814E0F40A2 /* HYCommonTool */;
+			target = 80E20B16224946FA83A3C052586EBAC0 /* HYCommonTool */;
 			targetProxy = FE1DDB191AFB4724BE5842EC5D3EAB12 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -617,36 +626,6 @@
 			};
 			name = Release;
 		};
-		45D494C76BC1E00C8010777EF8AD11E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4230BA5892FD86A30C3238265C44C952 /* HYCommonTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HYCommonTool/HYCommonTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HYCommonTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HYCommonTool/HYCommonTool.modulemap";
-				PRODUCT_NAME = HYCommonTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -709,6 +688,36 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		6988FE4B252B056B53D22C5149F22CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D2D87B042E472A877B0E7327DCF1B3 /* HYCommonTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYCommonTool/HYCommonTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYCommonTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYCommonTool/HYCommonTool.modulemap";
+				PRODUCT_NAME = HYCommonTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7017F16CB6856D8FDE86A77E47255C57 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -800,35 +809,6 @@
 			};
 			name = Release;
 		};
-		9BFCAB88DD84E5B4DBE7575E46A30932 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4230BA5892FD86A30C3238265C44C952 /* HYCommonTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HYCommonTool/HYCommonTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HYCommonTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HYCommonTool/HYCommonTool.modulemap";
-				PRODUCT_NAME = HYCommonTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9FC462283074FEE0AA5F0544BB8ADF5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9BC8BD6404C4F1168F9FA74F5FB2AE7 /* Pods-HYCommonTool_Tests.debug.xcconfig */;
@@ -894,6 +874,35 @@
 			};
 			name = Release;
 		};
+		BF58CD213C89E2552D60F9F347BD1494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73D2D87B042E472A877B0E7327DCF1B3 /* HYCommonTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYCommonTool/HYCommonTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYCommonTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYCommonTool/HYCommonTool.modulemap";
+				PRODUCT_NAME = HYCommonTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
@@ -936,20 +945,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B709199A0C4CE33072D80EB36C113F9 /* Build configuration list for PBXNativeTarget "HYCommonTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BFCAB88DD84E5B4DBE7575E46A30932 /* Debug */,
-				45D494C76BC1E00C8010777EF8AD11E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6B9236A4A03DFFAEB344AD8587BB0E01 /* Build configuration list for PBXNativeTarget "Pods-HYCommonTool_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FC462283074FEE0AA5F0544BB8ADF5F /* Debug */,
 				232A4DB1DB685C57D5EFD7ECC2F2A1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E22CA49FAB93B91176A0ECD7959A1B /* Build configuration list for PBXNativeTarget "HYCommonTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF58CD213C89E2552D60F9F347BD1494 /* Debug */,
+				6988FE4B252B056B53D22C5149F22CFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
