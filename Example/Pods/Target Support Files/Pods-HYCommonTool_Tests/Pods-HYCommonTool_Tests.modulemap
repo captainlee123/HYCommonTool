@@ -1,0 +1,6 @@
+framework module Pods_HYCommonTool_Tests {
+  umbrella header "Pods-HYCommonTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

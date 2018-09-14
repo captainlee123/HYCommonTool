@@ -1,0 +1,6 @@
+framework module HYCommonTool {
+  umbrella header "HYCommonTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
