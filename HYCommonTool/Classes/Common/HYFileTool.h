@@ -2,13 +2,13 @@
 //  URFileTool.h
 //  Steward
 //
-//  Created by shen zhen on 13-5-4.
-//  Copyright (c) 2013年 沈桢. All rights reserved.
+//  Created by ihooyah on 13-5-4.
+//  Copyright (c) 2013年 ihooyah. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface URFileTool : NSObject
+@interface HYFileTool : NSObject
 
 #pragma mark
 #pragma mark==================================================

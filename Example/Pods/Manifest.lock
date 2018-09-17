@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HYCommonTool (0.1.0)
+  - HYCommonTool (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HYCommonTool: 8992ce34127f3a5965c2c5ac6e925e48f006747c
+  HYCommonTool: ad1fc6e17272566e50327748dd252513640ecbc6
 
 PODFILE CHECKSUM: 65bad1ba3bdc286f509b33ab530dc91b4e5e2214
 

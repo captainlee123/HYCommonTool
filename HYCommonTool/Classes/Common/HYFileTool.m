@@ -2,13 +2,13 @@
 //  URFileTool.m
 //  Steward
 //
-//  Created by shen zhen on 13-5-4.
-//  Copyright (c) 2013年 沈桢. All rights reserved.
+//  Created by ihooyah on 13-5-4.
+//  Copyright (c) 2013年 ihooyah. All rights reserved.
 //
 
-#import "URFileTool.h"
+#import "HYFileTool.h"
 
-@implementation URFileTool
+@implementation HYFileTool
 
 #pragma mark
 #pragma mark==================================================

@@ -1,7 +1,7 @@
 {
   "name": "HYCommonTool",
-  "version": "0.1.0",
-  "summary": "A short description of HYCommonTool.",
+  "version": "0.1.1",
+  "summary": "文件操作类封装",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/captainlee123/HYCommonTool",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/captainlee123/HYCommonTool.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
