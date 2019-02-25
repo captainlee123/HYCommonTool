@@ -30,7 +30,7 @@
 #import "NSTimer+HYAddition.h"
 #import "UIColor+HYAddition.h"
 #import "UIImage+HYAddition.h"
-
+#import "UITextView+HYPlaceholder.h"
 
 /// Crash
 #import "HYCrashReport.h"

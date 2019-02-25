@@ -11,7 +11,7 @@
 @implementation HYSystemView
 
 /// 展示系统弹框
-+ (void)showAlertWithTitle:(NSString *)title message:(NSString *)message fromVC:(UIViewController *)fromVC cancelTitle:(NSString *)cancelTitle otherActions:(NSArray *)otherActions completion:(void (^ __nullable)(NSInteger index))completion {
++ (void)showAlertWithTitle:(NSString *)title message:(NSString *)message fromVC:(UIViewController *)fromVC cancelTitle:(NSString *)cancelTitle otherActions:(NSArray *)otherActions destructiveActions:(NSArray *)destructiveActions completion:(void (^ __nullable)(NSInteger index))completion {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *actionCancel = [UIAlertAction actionWithTitle:cancelTitle style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
@@ -31,6 +31,17 @@
             [alert dismissViewControllerAnimated:YES completion:nil];
         }];
         [alert addAction:actionConfirm];
+    }
+    
+    for (NSInteger i = 0; i < destructiveActions.count; i++) {
+        NSString *action = destructiveActions[i];
+        UIAlertAction *actionDestructive = [UIAlertAction actionWithTitle:action style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+            if (completion) {
+                completion(otherActions.count+i+1);
+            }
+            [alert dismissViewControllerAnimated:YES completion:nil];
+        }];
+        [alert addAction:actionDestructive];
     }
     
     

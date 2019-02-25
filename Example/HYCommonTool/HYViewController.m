@@ -7,7 +7,6 @@
 //
 
 #import "HYViewController.h"
-#import "HYFileTool.h"
 
 @interface HYViewController ()
 
@@ -20,7 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSLog(@"%@", [HYFileTool getLocalFilePath:@""]);
+    
 }
 
 - (void)didReceiveMemoryWarning

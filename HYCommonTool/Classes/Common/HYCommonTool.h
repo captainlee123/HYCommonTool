@@ -29,14 +29,6 @@
  *  @Author 有点坑, 15-07-26 17:07:00
  *
  *  TODO:获取文本的绘制size
- *
- *  @param text
- *  @param size
- *  @param font
- *
- *  @return
- *
- *  @since 1.0
  */
 + (CGRect)getRectFromString:(NSString *)string withRestrictSize:(CGSize)size font:(UIFont *)font;
 
@@ -50,8 +42,6 @@
  *  @author 有点坑, 15-05-15 17:05:27
  *
  *  TODO:获取输入框去高亮部分的 长度
- *
- *  @return
  */
 + (NSInteger)getTextCountWithoutMarked:(id)object;
 
@@ -77,10 +67,6 @@
  *
  *  @param multiplierValue   乘数
  *  @param multiplicandValue 被乘数
- *
- *  @return
- *
- *  @since 1.0
  */
 + (NSDecimalNumber *)decimalNumberMutiplyWithMultiplierValue:(NSString *)multiplierValue multiplicandValue:(NSInteger)multiplicandValue;
 
@@ -91,10 +77,6 @@
  *
  *  @param addValue    加数
  *  @param addentValue 被加数
- *
- *  @return
- *
- *  @since 1.0
  */
 + (NSDecimalNumber *)decimalNumberAddWithAddNumber:(NSDecimalNumber *)addNumber addentNumber:(NSDecimalNumber *)addentNumber;
 
@@ -107,10 +89,6 @@
  *
  *  @param subtractionValue 被减数
  *  @param subtrahendValue  减数
- *
- *  @return
- *
- *  @since 1.0
  */
 + (NSString *)decimalNumberSubtractingWithSubtractionValue:(NSString *)subtractionValue subtrahendValue:(NSString *)subtrahendValue;
 
@@ -121,10 +99,6 @@
 
 /*检测是否在iPhone“设置”中打开推送*/
 + (BOOL)appIsOpenForRemoteNotifications;
-
-//相对路径转绝对地址
-+ (NSString *)relativeUrlToAbsolute:(NSString *)relativeUrl;
-
 
 
 /// 打开设置界面
@@ -159,8 +133,6 @@
 #pragma mark ========== 设备信息 ===============
 /**
  *  TODO:获取当前设备的名称 更新到IPhone X 和 IPad4
- *
- *  @return
  */
 + (NSString *)deviceName;
 

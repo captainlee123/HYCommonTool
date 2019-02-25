@@ -12,6 +12,6 @@
 @interface HYSystemView : NSObject
 
 /// 展示系统弹框
-+ (void)showAlertWithTitle:(NSString *)title message:(NSString *)message fromVC:(UIViewController *)fromVC cancelTitle:(NSString *)cancelTitle otherActions:(NSArray *)otherActions completion:(void (^ __nullable)(NSInteger index))completion;
++ (void)showAlertWithTitle:(NSString *)title message:(NSString *)message fromVC:(UIViewController *)fromVC cancelTitle:(NSString *)cancelTitle otherActions:(NSArray *)otherActions destructiveActions:(NSArray *)destructiveActions completion:(void (^ __nullable)(NSInteger index))completion;
 
 @end

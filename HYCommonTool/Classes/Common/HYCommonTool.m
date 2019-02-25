@@ -57,14 +57,6 @@
  *  @Author 有点坑, 15-07-26 17:07:00
  *
  *  TODO:获取文本的绘制size
- *
- *  @param text
- *  @param size
- *  @param font
- *
- *  @return
- *
- *  @since 1.0
  */
 + (CGRect)getRectFromString:(NSString *)string withRestrictSize:(CGSize)size font:(UIFont *)font {
     if (!string || string.length == 0) {
@@ -93,8 +85,6 @@
  *  @author 有点坑, 15-05-15 17:05:27
  *
  *  TODO:获取输入框去高亮部分的 长度
- *
- *  @return
  */
 + (NSInteger)getTextCountWithoutMarked:(id)object {
     return [HYCommonTool getTextCountWithoutMarked:object isAscii:NO];
@@ -168,10 +158,6 @@
  *
  *  @param multiplierValue   乘数
  *  @param multiplicandValue 被乘数
- *
- *  @return
- *
- *  @since 1.0
  */
 + (NSDecimalNumber *)decimalNumberMutiplyWithMultiplierValue:(NSString *)multiplierValue multiplicandValue:(NSInteger)multiplicandValue {
     NSDecimalNumber *multiplierNumber = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%@", multiplierValue]];
@@ -187,10 +173,6 @@
  *
  *  @param addValue    加数
  *  @param addentValue 被加数
- *
- *  @return
- *
- *  @since 1.0
  */
 + (NSDecimalNumber *)decimalNumberAddWithAddNumber:(NSDecimalNumber *)addNumber addentNumber:(NSDecimalNumber *)addentNumber {
     NSDecimalNumber *product = [addNumber decimalNumberByAdding:addentNumber];
@@ -211,10 +193,6 @@
  *
  *  @param subtractionValue 被减数
  *  @param subtrahendValue  减数
- *
- *  @return
- *
- *  @since 1.0
  */
 + (NSString *)decimalNumberSubtractingWithSubtractionValue:(NSString *)subtractionValue subtrahendValue:(NSString *)subtrahendValue {
     NSDecimalNumber *subtraction = [NSDecimalNumber decimalNumberWithString:[NSString stringWithFormat:@"%@", subtractionValue]];
@@ -239,25 +217,6 @@
 + (BOOL)pushNotificationsEnabled {
     UIUserNotificationType types = [[[UIApplication sharedApplication] currentUserNotificationSettings] types];
     return (types & UIUserNotificationTypeAlert);
-}
-
-//相对路径转绝对地址
-+ (NSString *)relativeUrlToAbsolute:(NSString *)relativeUrl {
-    if (![relativeUrl hasPrefix:@"http"]) {
-        NSDictionary *dict = [[NSUserDefaults standardUserDefaults] objectForKey:@"sys_config"];
-        NSString *completeUrl;
-        
-        if ([relativeUrl hasPrefix:@"ysqn"]) {
-            //七牛
-            NSDictionary *qiniuConfig = dict[@"qiniu_config"];
-            completeUrl = [NSString stringWithFormat:@"%@%@", qiniuConfig[@"qiniu_host"], relativeUrl];
-        }else {
-            completeUrl = [NSString stringWithFormat:@"%@%@", dict[@"img_host"], relativeUrl];
-        }
-        
-        return [HYCommonTool convertUrlString:completeUrl];
-    }
-    return [HYCommonTool convertUrlString:relativeUrl];
 }
 
 /// 打开设置界面
@@ -353,8 +312,6 @@
 #pragma mark ============== 设备信息 ===============
 /**
  *  TODO:获取当前设备的名称 更新到IPhone X 和 IPad4
- *
- *  @return
  */
 + (NSString *)deviceName {
     NSString *platform = [HYCommonTool phonePlatform];
